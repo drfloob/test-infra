@@ -51,6 +51,10 @@ def main():
             "alias": "work_stealing",
             "color": "#E02F44"
           }
+          {
+            "alias": "event_engine_listener,work_stealing",
+            "color": "#96D98D"
+          }
         ]"""
 
     args = {

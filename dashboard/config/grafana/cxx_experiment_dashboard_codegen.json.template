@@ -1884,7 +1884,7 @@
     },
     "timepicker": {},
     "timezone": "browser",
-    "title": "gRPC C++ Experiments: Performance Dashboard",
-    "uid": "hork-20230731",
+    "title": "gRPC-Core Experiments - Performance Dashboard",
+    "uid": "cxx-experiments",
     "version": 0
   }
