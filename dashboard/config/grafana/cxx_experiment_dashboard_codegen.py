@@ -36,15 +36,15 @@ def main():
     series_overrides = """[
           {
             "alias": "baseline",
-            "color": "#37872D"
+            "color": "#8AB8FF"
           },
           {
             "alias": "event_engine_listener",
-            "color": "#67cfde"
+            "color": "#FFEE52"
           },
           {
             "alias": "work_stealing",
-            "color": "#5794F2"
+            "color": "#E02F44"
           }
         ]"""
 
