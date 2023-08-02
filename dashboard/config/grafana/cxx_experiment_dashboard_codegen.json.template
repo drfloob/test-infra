@@ -24,7 +24,7 @@
         "dashLength": 10,
         "dashes": false,
         "datasource": "Postgres",
-        "description": "Language comparison of unary ping pong between two GKE nodes in the same cluster (each node resides on a separate VM, both VMs are located in the same compute zone). Secure connection is used.",
+        "description": "Comparison of unary ping pong between two GKE nodes in the same cluster (each node resides on a separate VM, both VMs are located in the same compute zone). Secure connection is used.",
         "fieldConfig": {
           "defaults": {
             "unit": "short"
@@ -105,7 +105,7 @@
         "timeFrom": null,
         "timeRegions": [],
         "timeShift": null,
-        "title": "Unary secure ping pong median latency - Language comparison (in microsec)",
+        "title": "Unary secure ping pong median latency (in microsec)",
         "tooltip": {
           "shared": false,
           "sort": 0,
@@ -150,7 +150,7 @@
         "dashLength": 10,
         "dashes": false,
         "datasource": "Postgres",
-        "description": "Language comparison of streaming ping pong between two GKE nodes in the same cluster (each node resides on a separate VM, both VMs are located in the same compute zone). Secure connection is used.",
+        "description": "Comparison of streaming ping pong between two GKE nodes in the same cluster (each node resides on a separate VM, both VMs are located in the same compute zone). Secure connection is used.",
         "fieldConfig": {
           "defaults": {
             "unit": "short"
