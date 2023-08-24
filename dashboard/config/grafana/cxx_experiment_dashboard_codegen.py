@@ -28,11 +28,6 @@ def main():
             "32core_table": "results_32core_event_engine_listener",
         },
         {
-            "name": "work_stealing",
-            "8core_table": "results_8core_work_stealing",
-            "32core_table": "results_32core_work_stealing",
-        },
-        {
             "name": "event_engine_listener,work_stealing",
             "8core_table": "results_8core_event_engine_listener__work_stealing",
             "32core_table": "results_32core_event_engine_listener__work_stealing",
@@ -46,10 +41,6 @@ def main():
           {
             "alias": "event_engine_listener",
             "color": "#FFEE52"
-          },
-          {
-            "alias": "work_stealing",
-            "color": "#E02F44"
           },
           {
             "alias": "event_engine_listener,work_stealing",
