@@ -28,9 +28,14 @@ def main():
             "32core_table": "results_32core_event_engine_listener",
         },
         {
-            "name": "event_engine_listener,work_stealing",
-            "8core_table": "results_8core_event_engine_listener__work_stealing",
-            "32core_table": "results_32core_event_engine_listener__work_stealing",
+            "name": "event_engine_client",
+            "8core_table": "results_8core_event_engine_client",
+            "32core_table": "results_32core_event_engine_client",
+        },
+        {
+            "name": "event_engine_client,event_engine_listener",
+            "8core_table": "results_8core_event_engine_client__event_engine_listener",
+            "32core_table": "results_32core_event_engine_client__event_engine_listener",
         },
     ]
     series_overrides = """[
@@ -43,8 +48,12 @@ def main():
             "color": "#FFEE52"
           },
           {
-            "alias": "event_engine_listener,work_stealing",
+            "alias": "event_engine_client",
             "color": "#96D98D"
+          },
+          {
+            "alias": "event_engine_client,event_engine_listener",
+            "color": "#F2495C"
           }
         ]"""
 
